@@ -4,9 +4,10 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   console.log(process.env.URL_MONGO);
+  console.log(process.env.PORT)
   const app = await NestFactory.create(AppModule);
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
 
-  await app.listen(80);
+  await app.listen(process.env.PORT || 8080);
 }
 bootstrap();
