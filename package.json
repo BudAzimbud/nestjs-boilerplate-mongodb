@@ -31,6 +31,7 @@
     "@nestjs/mongoose": "^9.0.2",
     "@nestjs/passport": "^8.0.1",
     "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/swagger": "^7.1.8",
     "@nextnm/nestjs-mailgun": "^2.0.0",
     "@nextnm/nestjs-ses": "^0.0.4",
     "@types/passport-facebook": "^2.1.11",
